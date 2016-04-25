@@ -3,25 +3,25 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "org.btu.app1"
-        version   = "1.0.0">
+        id        = "com.josh.btu"
+        version   = "1.0.2">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>BTU Boston Teachers Union</name>
+    <name>Boston Teachers Union</name>
 
     <description>
-        Mobile app for the Boston Teachers Union (BTU).
+        Boston Teachers Union
     </description>
 
-    <author href="http://forwardjump.com" email="info@forwardjump.com">
-        ForwardJump, LLC
+    <author href="http://staging.btu.org/" email="joshkoff@gmail.com">
+        Boston Teachers Union
     </author>
 
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString"><string>100</string></gap:config-file>
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString"><string>102</string></gap:config-file>
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
